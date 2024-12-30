@@ -1,0 +1,213 @@
+html,
+body {
+  width: 1000px;
+  height: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "calibri";
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+.box-a {
+  background-color: #333;
+  padding-top: 5px;
+  padding-bottom: 70px;
+  color: #fff;
+}
+
+.box-a h2 {
+  font-size: 48pt;
+  margin: auto;
+  color: #fff;
+  float: left;
+  padding-left: 40px;
+}
+
+.site li {
+  list-style: none;
+  float: right;
+  padding: 16pt;
+  padding-top: 0px;
+  border: #333;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* styling the options */
+.options li {
+  list-style: none;
+  float: left;
+  font-size: 16pt;
+  color: #333;
+  padding: 8px;
+  padding-top: 0px;
+  margin-left: 0px;
+}
+
+.hiddenlabel {
+  position: absolute;
+  height: 10px;
+  width: 5px;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.search-input {
+  width: 180px;
+  padding: 12px;
+  border: 1.5px solid black;
+}
+
+/*styling column layput*/
+.column-layout {
+  background-color: #ededef;
+  padding: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 420px;
+  box-sizing: border-box;
+}
+
+.image {
+  width: 100px;
+  margin-right: 50px;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+}
+
+.note {
+  width: 600px;
+  font-size: 58pt;
+  color: #333;
+  text-align: left;
+  font-weight: normal;
+  margin-left: 20px;
+}
+
+.about {
+  width: 500px;
+  font-size: 18pt;
+  color: #333;
+  text-align: left;
+  line-height: 1;
+  margin-left: 10px;
+}
+
+/*deals of the day*/
+.deals {
+  box-sizing: border-box;
+  padding: auto;
+}
+
+.deals h3 {
+  font-size: 30pt;
+  color: #333;
+  font-weight: normal;
+  margin-top: 5px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.deals h3 span {
+  font-size: 50pt;
+}
+
+.deals-ph {
+  display: flex;
+  padding: 10px 0px 0px 10px;
+  justify-content: space-between;
+  margin: 0% 7%;
+}
+
+.deals-ph figure {
+  flex: 1;
+  width: 100%;
+  margin: 0px 8px;
+}
+
+.deals-ph img {
+  width: 130px;
+  height: 120px;
+}
+
+.deals-ph figcaption {
+  font: size 15px;
+  text-align: center;
+  color: #333;
+  width: 100%;
+}
+
+/*fashion categories*/
+.fashion h3 {
+  font-size: 30pt;
+  color: #333;
+  font-weight: normal;
+  margin-top: 5px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.fashion h3 span {
+  font-size: 50pt;
+}
+
+.fashion-ph {
+  display: flex;
+  padding: 0px 10px;
+  justify-content: space-between;
+}
+
+.fashion-ph figure {
+  flex: 1;
+  width: 100%;
+  margin: 5px 10px;
+  background-color: #dbf3fa;
+  text-align: center;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+
+.fashion-ph img {
+  width: 90%;
+  height: 150px;
+}
+
+.fashion-ph figcaption {
+  font: size 20pt;
+  text-align: center;
+  color: #333;
+}
+
+/* styling brands */
+
+.brands {
+  font-size: 14pt;
+  color: #333;
+  margin-left: 60px;
+  line-height: 2;
+}
+
+/* footer section */
+footer {
+  background-color: #131a22;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 35px 40px 35px;
+}
+
+footer h3 {
+  font-size: 18pt;
+  margin-bottom: 10px;
+}
+
+footer li {
+  list-style: none;
+  font-size: 16pt;
+  line-height: 1.5;
+}
